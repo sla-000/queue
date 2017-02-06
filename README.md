@@ -1,8 +1,8 @@
 # Queue #
 
-Simple cycled buffer queue realisation.
+Simple circular buffer queue realization.
 Library is not using memory allocation.
-User must create his static buffer or allocated memory area an point to it in settings structure.
+You must create your own buffer or allocated memory area and point to it in settings structure. See example.
 
 # Purpose #
 
@@ -13,3 +13,4 @@ This is pure C queue, highly configurable and have high performance.
 # Example #
 
 You can find example in the bottom of C module. This is both example and unit test.
+To compile and run test execute ./test.sh
